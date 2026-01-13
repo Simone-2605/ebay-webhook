@@ -2,7 +2,7 @@ import crypto from "crypto";
 
 export default function handler(req, res) {
   const challengeCode = req.query.challenge_code;
-  const verificationToken = "bittishop-ebay-test-token-123";
+  const verificationToken = "ebay-bittishop-ebay-test-token-123";
 
   const endpoint =
     "https://" + req.headers.host + req.url.split("?")[0];
